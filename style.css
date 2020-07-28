@@ -1,0 +1,150 @@
+@import	url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Proza+Libre:wght@400;700&display=swap');
+@import	url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+	* {
+	    box-sizing: border-box;
+	}
+
+	html{
+		font-size: 16px;
+		font-family: 'Proza Libre', sans-serif;
+		background: #fff;
+		color: #fff;
+	}
+
+	body{
+		color: #fff;
+		font-size: 1rem;
+		margin: 0;
+		line-height: 1.5;
+	}
+
+	img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	h3{
+		font-family: 'Cormorant Garamond', serif;
+	}
+
+	h1 small{
+		font-size: 50%;
+		display: block;
+	}
+
+	div.header {
+	    padding: 20px;
+	    background: #4A3600;
+        text-align: center;
+	}
+
+	div.header a,.main-content button{
+		color: #AADBB4;
+		margin-right: 10px;
+		border: 1px solid #AADBB4;
+		padding: 5px 25px;
+		text-decoration: none;
+		background-color: transparent;
+		cursor: pointer;
+		text-align: center;
+	}
+
+	div.header a:hover,.main-content button:hover{
+		color: #fff;
+		border-color: #fff;
+	}
+
+	div.header a:last-child{
+		margin-right: 0;
+	}
+
+	div.header a.active, .main-content button#active-button{
+		color: #fff;
+		border-color: #fff;
+	}
+
+	footer{
+		padding: 5%;
+	    color: #AADBB4;
+	    background-image: url('../img/bg-1.jpg');
+	    background-size: cover;
+		background-repeat: repeat;
+		background-position: center;
+        text-align: center;
+	}
+
+	footer ul{
+	    margin: 0;
+	    padding: 0;
+	}
+
+	footer ul li{
+	    display: inline-block;
+	}
+
+
+	footer a, footer p, footer h3{
+		color: #000;
+	}
+
+	footer i{
+		font-size: 2rem !important;
+		margin-right: 1rem;
+        color: #4A3600;
+	}
+
+
+	.masthead{
+		background-image: url('../img/bg.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+        max-width: 100%;
+	}
+
+	.main-content{
+		max-width: 60rem;
+	    padding: 2.5rem;
+	    padding-top: 1rem;
+	    margin: 0 auto;
+	    background-color: rgba(0, 0, 0, 0.55);
+	    background-position: right;
+	}
+
+	.new-content{
+		margin-bottom: 5rem;
+	}
+
+
+/*desktop*/
+
+
+	@media (min-width: 60rem) {
+		body{
+			font-size: 1.5rem;
+		}
+
+		.new-content h1:nth-of-type(1){
+			display: inline-block;
+			width: 100%;
+		}
+
+		.new-content img:nth-of-type(1){
+			display: inline-block;
+			width: 49%;
+			float: left;
+		}
+
+		.new-content p:nth-of-type(1){
+			display: inline-block;
+			width: 49%;
+			margin: 0;
+			padding-left: 2rem;
+		}
+
+		.new-content{
+			margin-bottom: 10rem;
+		}
+	}
+	
+
